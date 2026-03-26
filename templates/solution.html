@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Solution</title>
+
+<link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="main-container">
+
+<h1 class="title">📘 AI Math Solution</h1>
+
+<div class="glass-card">
+
+<h2>Recognized Equation</h2>
+
+<div class="equation-box">
+{{ equation }}
+</div>
+
+</div>
+
+<div class="glass-card">
+
+<h2>Steps</h2>
+
+<ul class="steps">
+
+{% for step in steps %}
+<li>{{ step }}</li>
+{% endfor %}
+
+</ul>
+
+</div>
+
+<div class="glass-card result-card">
+
+<h2>Final Answer</h2>
+
+<p class="answer">{{ result }}</p>
+
+</div>
+
+<div class="glass-card">
+
+<h2>Mistake Detection</h2>
+
+<ul>
+
+{% for m in mistakes %}
+<li>{{ m }}</li>
+{% endfor %}
+
+</ul>
+
+</div>
+
+<a class="solve-again" href="/">Solve Another</a>
+
+</div>
+
+</body>
+</html>

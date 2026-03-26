@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>AI Math Tutor</title>
+
+<link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="main-container">
+
+<h1 class="title">🤖 AI Math Tutor</h1>
+
+<p class="subtitle">
+Upload a handwritten or printed equation and get AI step-by-step solution
+</p>
+
+<div class="glass-card">
+
+<form action="/solve" method="POST" enctype="multipart/form-data">
+
+<div class="upload-area" id="dropArea">
+
+<p>Drag & Drop Equation Image</p>
+<span>or</span>
+
+<input type="file" name="image" id="fileInput" required>
+
+</div>
+
+<img id="preview" />
+
+<button type="submit" class="solve-btn">
+Solve Equation
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script>
+
+const fileInput = document.getElementById("fileInput");
+const preview = document.getElementById("preview");
+
+fileInput.addEventListener("change", function(){
+
+const file = this.files[0];
+
+if(file){
+
+preview.style.display="block";
+
+preview.src = URL.createObjectURL(file);
+
+}
+
+});
+
+</script>
+
+</body>
+</html>

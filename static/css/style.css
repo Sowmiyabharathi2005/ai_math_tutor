@@ -1,0 +1,148 @@
+body{
+margin:0;
+font-family:Segoe UI;
+color:white;
+overflow-x:hidden;
+}
+
+.background{
+position:fixed;
+width:100%;
+height:100%;
+background:linear-gradient(135deg,#667eea,#764ba2,#ff758c);
+background-size:400% 400%;
+animation:gradientMove 10s ease infinite;
+z-index:-1;
+}
+
+@keyframes gradientMove{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+.main-container{
+width:750px;
+margin:auto;
+text-align:center;
+padding-top:60px;
+}
+
+.title{
+font-size:45px;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.subtitle{
+opacity:0.9;
+margin-bottom:40px;
+}
+
+.glass-card{
+
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(15px);
+padding:25px;
+margin-bottom:25px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+
+}
+
+.upload-area{
+
+border:2px dashed white;
+padding:30px;
+border-radius:10px;
+cursor:pointer;
+
+}
+
+.upload-area p{
+font-size:18px;
+margin:0;
+}
+
+.upload-area span{
+display:block;
+margin:10px 0;
+opacity:0.8;
+}
+
+input[type=file]{
+margin-top:10px;
+}
+
+#preview{
+margin-top:20px;
+max-width:200px;
+display:none;
+border-radius:10px;
+}
+
+.solve-btn{
+
+margin-top:20px;
+padding:12px 30px;
+border:none;
+background:#00c9ff;
+color:white;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+transition:0.3s;
+
+}
+
+.solve-btn:hover{
+
+transform:scale(1.05);
+background:#0096c7;
+
+}
+
+.equation-box{
+
+font-size:26px;
+font-weight:bold;
+
+}
+
+.steps{
+
+text-align:left;
+}
+
+.result-card{
+
+background:#27ae60;
+}
+
+.answer{
+
+font-size:28px;
+font-weight:bold;
+
+}
+
+.solve-again{
+
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#ff5e62;
+border-radius:10px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+
+}
+
+.solve-again:hover{
+
+background:#ff2e63;
+
+}

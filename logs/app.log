@@ -1,0 +1,51 @@
+2026-03-19 13:09:33,559 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 13:10:52,174 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-19 13:10:52,176 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-19 13:10:52,216 - INFO -  * Restarting with stat
+2026-03-19 13:12:04,221 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 13:12:50,644 - WARNING -  * Debugger is active!
+2026-03-19 13:12:50,731 - INFO -  * Debugger PIN: 138-010-085
+2026-03-19 13:26:09,167 - INFO -  * Detected change in 'D:\\ai_math_tutor\\utils\\response_formatter.py', reloading
+2026-03-19 13:26:15,417 - INFO -  * Restarting with stat
+2026-03-19 13:26:56,020 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 13:27:07,913 - WARNING -  * Debugger is active!
+2026-03-19 13:27:07,934 - INFO -  * Debugger PIN: 138-010-085
+2026-03-19 13:52:20,002 - INFO -  * Detected change in 'D:\\ai_math_tutor\\services\\latex_service.py', reloading
+2026-03-19 13:52:23,911 - INFO -  * Restarting with stat
+2026-03-19 13:52:45,609 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 14:01:06,473 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 14:48:03,206 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 14:54:19,737 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 14:54:44,371 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-19 14:54:44,372 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-19 14:54:44,437 - INFO -  * Restarting with stat
+2026-03-19 14:55:46,644 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 14:56:36,236 - WARNING -  * Debugger is active!
+2026-03-19 14:56:36,323 - INFO -  * Debugger PIN: 138-010-085
+2026-03-19 14:58:50,080 - INFO -  * Detected change in 'D:\\ai_math_tutor\\services\\latex_service.py', reloading
+2026-03-19 14:58:57,308 - INFO -  * Restarting with stat
+2026-03-19 15:00:05,379 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 15:00:54,055 - WARNING -  * Debugger is active!
+2026-03-19 15:00:54,156 - INFO -  * Debugger PIN: 138-010-085
+2026-03-19 15:12:53,138 - INFO - 127.0.0.1 - - [19/Mar/2026 15:12:53] "GET / HTTP/1.1" 200 -
+2026-03-19 15:12:53,925 - INFO - 127.0.0.1 - - [19/Mar/2026 15:12:53] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-03-19 15:12:54,107 - INFO - 127.0.0.1 - - [19/Mar/2026 15:12:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-19 15:15:56,915 - INFO -  * Detected change in 'D:\\ai_math_tutor\\services\\latex_service.py', reloading
+2026-03-19 15:17:36,871 - INFO -  * Restarting with stat
+2026-03-19 15:19:20,499 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 15:20:31,238 - WARNING -  * Debugger is active!
+2026-03-19 15:20:31,502 - INFO -  * Debugger PIN: 138-010-085
+2026-03-19 15:20:37,415 - INFO - 127.0.0.1 - - [19/Mar/2026 15:20:37] "GET / HTTP/1.1" 200 -
+2026-03-19 15:20:37,721 - INFO - 127.0.0.1 - - [19/Mar/2026 15:20:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-03-19 15:25:47,284 - INFO - 127.0.0.1 - - [19/Mar/2026 15:25:47] "POST /solve HTTP/1.1" 200 -
+2026-03-19 15:25:47,249 - INFO - 127.0.0.1 - - [19/Mar/2026 15:25:47] "POST /solve HTTP/1.1" 200 -
+2026-03-19 15:25:47,246 - INFO - 127.0.0.1 - - [19/Mar/2026 15:25:47] "POST /solve HTTP/1.1" 200 -
+2026-03-19 15:25:47,292 - INFO - 127.0.0.1 - - [19/Mar/2026 15:25:47] "POST /solve HTTP/1.1" 200 -
+2026-03-19 15:33:04,079 - INFO -  * Detected change in 'D:\\ai_math_tutor\\app.py', reloading
+2026-03-19 15:33:28,579 - INFO -  * Restarting with stat
+2026-03-19 15:46:03,568 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-19 15:48:06,927 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-19 15:48:06,928 - INFO - [33mPress CTRL+C to quit[0m
